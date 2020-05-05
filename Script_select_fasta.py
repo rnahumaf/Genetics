@@ -35,6 +35,6 @@ for i in range(len(fasta2)):
                 df.append(fasta2[i])
 
 # Salvar
-with open("file.txt", "w") as output:
+with open("file.fasta", "w") as output:
     for i in df:
         output.write(str(*i) + "\n")
